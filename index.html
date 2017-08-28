@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A Mini project (themed in purple) showcasing some UI Design and usage of FE skills">
+
+	<title>Numeral Navigation</title>
+	
+	<link rel="stylesheet" type="text/css" href="resources/style.css">
+</head>
+<body>
+
+<section id="mainContent-container">
+
+	<div class="content active" id="first">
+		<h1>I</h1>
+		<h2>This is the First, Initial and Primary</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+	<div class="content" id="second">
+		<h1>II</h1>
+		<h2>This is the Second, Far from the Last</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+	<div class="content" id="third">
+		<h1>III</h1>
+		<h2>This is the Third, In Between All</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+	<div class="content" id="fourth">
+		<h1>IV</h1>
+		<h2>This is the Fourth, Following up to the Finally</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+	<div class="content" id="fifth">
+		<h1>V</h1>
+		<h2>This is the Last, Focus on the Finality</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+</section>
+
+	<nav class="simpleNav">
+		<a href="#first" data-target="one" class="current">I</a>
+		<a href="#second" data-target="two">II</a>
+		<a href="#third" data-target="three">III</a>
+		<a href="#fourth" data-target="four">VI</a>
+		<a href="#fifth" data-target="five">V</a>
+	</nav>
+
+	<ul class="underneath">
+		<li class="rectWrapper active">
+			<div class="rectUnder" id="one"></div>
+		</li>
+		<li class="rectWrapper">
+			<div class="rectUnder" id="two"></div>
+		</li>
+		<li class="rectWrapper">
+			<div class="rectUnder" id="three"></div>
+		</li>
+		<li class="rectWrapper">
+			<div class="rectUnder" id="four"></div>
+		</li>
+		<li class="rectWrapper">
+			<div class="rectUnder" id="five"></div>
+		</li>
+	</ul>
+
+	
+	<!-- Load in Scripts -->
+	<script src="resources/jquery-3.1.1.min.js"></script>
+	<script src="resources/script.js"></script>
+</body>
+</html>
